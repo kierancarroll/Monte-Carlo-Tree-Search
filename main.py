@@ -1,6 +1,6 @@
 import numpy as np
-import random
 import matplotlib.pyplot as plt
+from MCTS_implementation import Node, MCTS, run_MCTS, edit_distance, get_addresses, get_leaf_scores
 
 # Compute the 4 statistics for a run
 def compute_metrics(final_value, final_leaf, leaf_values, visited_nodes):
